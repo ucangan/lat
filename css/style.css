@@ -1,0 +1,84 @@
+.yey {
+    background: url(../foto/hero.JPG);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .yeyy {
+    background: url(../foto/bg.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .yeyy2 {
+    background: url(../foto/bg1.png);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .blur-container {
+    padding: 0px 40px;
+    background: rgba(0, 0, 0, 0.735); /* Warna redup */
+    backdrop-filter: blur(1.5px); /* Efek blur */
+    border-radius: 10px; /* Sudut melengkung */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.071); /* Bayangan */
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .yess {
+    padding-top: 180px;
+  }
+
+  .close {
+    font-size: 1.5rem;
+  }
+  
+  .col-12 img {
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 100%;
+  }
+  
+  .col-12 img:hover {
+    opacity: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .box1 {
+    box-shadow: -15px 15px 0px rgba(132, 128, 128, 0.799);
+    border-radius: 30px;
+  }
+
+  .box2 {
+    box-shadow: 10px 10px 0px rgba(132, 128, 128, 0.799);
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .box2::hover {
+    transform: translateY(-20px);
+
+  }
+  .geser {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .geser:hover {
+    transform: scale(1.1);
+
+  }
+
+  .aku {
+    border: 2px solid black;
+    border-radius: 30px;
+  }
